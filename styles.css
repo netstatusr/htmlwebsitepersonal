@@ -19,9 +19,7 @@ h1 {
     font-size: 27px;
 }
 
-p {
-
-    color: white;
+h3 {
+    font-family: monospace;
     text-align: center;
-    font-size: 50px;
 }
