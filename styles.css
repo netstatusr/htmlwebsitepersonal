@@ -1,8 +1,32 @@
+.topnav {
+    background-color: black;
+    overflow: hidden;
+}
+
+.topnav a {
+    float: left;
+    color: white;
+    text-align: left;
+    padding: 13px 15px;
+    text-decoration: none;
+    font-size: small;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.topnav a:hover {
+    background-color: darkblue;
+    color: white;
+}
+
+.topnav a.active {
+    background-color: blue;
+    color: white;
+}
 
 body {
     color: white;
     text-align: center;
-    background-color: red;
+    background-color: darkblue;
 }
 
 p {
