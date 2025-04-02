@@ -1,4 +1,6 @@
 .topnav {
+    position: sticky;
+    top: 0;
     background-color: black;
     overflow: hidden;
 }
@@ -7,26 +9,26 @@
     float: left;
     color: white;
     text-align: left;
-    padding: 13px 15px;
+    padding: 15px 30px;
     text-decoration: none;
-    font-size: small;
+    font-size: 15px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .topnav a:hover {
-    background-color: darkblue;
+    background-color: rgb(3, 3, 223);
     color: white;
 }
 
 .topnav a.active {
-    background-color: rgb(0, 66, 199);
+    background-color: rgb(0, 94, 134);
     color: white;
 }
 
 body {
     color: white;
     text-align: center;
-    background-color: darkblue;
+    background-image: url(inflicted.png);
 }
 
 p {
