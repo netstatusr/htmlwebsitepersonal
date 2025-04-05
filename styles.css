@@ -8,11 +8,11 @@
 .topnav a {
     float: left;
     color: white;
-    text-align: left;
-    padding: 15px 30px;
+    text-align: center;
+    padding: 15px 40px;
     text-decoration: none;
     font-size: 15px;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: "Helvetica", Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .topnav a:hover {
@@ -32,13 +32,12 @@ body {
 }
 
 p {
-    font-family: 'Lucida Grande';
+    font-family: "Lucida Grande";
     color: white;
     text-align: center;
 }
 
 h1 {
-
     font-family: Helvetica;
     color: white;
     text-align: center;
@@ -52,4 +51,15 @@ h2 {
 h3 {
     font-family: monospace;
     text-align: center;
+}
+
+h5 {
+    font-family: monospace;
+    text-align: center;
+}
+
+h6 {
+    font-family: monospace;
+    text-align: center;
+    font-size: 15px;
 }
