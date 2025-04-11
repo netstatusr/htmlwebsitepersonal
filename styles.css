@@ -12,7 +12,7 @@
     padding: 15px 40px;
     text-decoration: none;
     font-size: 15px;
-    font-family: "Helvetica", Tahoma, Geneva, Verdana, sans-serif;
+    font-family: monospace;
 }
 
 .topnav a:hover {
@@ -32,13 +32,13 @@ body {
 }
 
 p {
-    font-family: "Lucida Grande";
+    font-family: monospace;
     color: white;
     text-align: center;
 }
 
 h1 {
-    font-family: Helvetica;
+    font-family: monospace;
     color: white;
     text-align: center;
     font-size: 27px;
@@ -62,4 +62,8 @@ h6 {
     font-family: monospace;
     text-align: center;
     font-size: 15px;
+}
+
+audio {
+    align-self: center;
 }
