@@ -3,14 +3,16 @@
     top: 0;
     background-color: black;
     overflow: hidden;
+    max-width: 1150px;
+    margin: 0 auto;
 }
 
 .topnav a {
     float: left;
     color: white;
     text-align: center;
-    padding: 15px 40px;
-    text-decoration: none;
+    padding: 10px 30px;
+    text-decoration: dotted;
     font-size: 15px;
     font-family: monospace;
 }
@@ -66,4 +68,10 @@ h6 {
 
 audio {
     align-self: center;
+}
+
+.content {
+    max-width: 1250px;
+    margin: 0 auto;
+    padding: 6px;
 }
