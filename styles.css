@@ -15,6 +15,8 @@
     text-decoration: dotted;
     font-size: 15px;
     font-family: monospace;
+    border: 1px solid #003051;
+    box-sizing: border-box;
 }
 
 .topnav a:hover {
@@ -116,6 +118,7 @@ img {
         position: relative;
         max-width: 100%;
         padding: 0;
+        overflow: visible;
     }
     
     .topnav a {
@@ -124,7 +127,14 @@ img {
         width: 100%;
         padding: 15px 10px;
         font-size: 16px;
-        border-bottom: 1px solid #333;
+        border-bottom: 1px solid #003051;
+        border-left: none;
+        border-right: none;
+        border-top: none;
+    }
+
+    .topnav a:first-child {
+        border-top: 1px solid #003051;
     }
     
     .content {
