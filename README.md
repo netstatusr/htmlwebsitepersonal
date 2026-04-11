@@ -1,1 +1,1 @@
-update to make it mobile compatible
+Personal website made to familiarize myself with HTML/CSS. Some parts are vibe-coded.
