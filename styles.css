@@ -1,7 +1,7 @@
 .topnav {
     position: sticky;
     top: 0;
-    background-color: black;
+    background-color: #0f084b;
     overflow: hidden;
     max-width: 1150px;
     margin: 0 auto;
@@ -21,24 +21,24 @@
     text-decoration: dotted;
     font-size: 15px;
     font-family: monospace;
-    border: 5px solid #003051;
     box-sizing: border-box;
 }
 
 .topnav a:hover {
-    background-color: #254054;
+    background-color: #26408b;
     color: white;
 }
 
 .topnav a.active {
-    background-color: #5593c2;
+    background-color: #0d0221;
     color: white;
 }
 
 body {
     color: white;
     text-align: center;
-    background-image: url(space004.gif);
+    background-image: url(spac004.png);
+    background-size: auto;
     background-attachment: fixed;
 }
 
